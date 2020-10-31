@@ -82,7 +82,7 @@
             this.Controls.Add(this.pathBox);
             this.Controls.Add(this.pathLabel);
             this.Name = "MainPage";
-            this.Text = "MainPage";
+            this.Text = "SQL File Explorer";
             this.ResumeLayout(false);
             this.PerformLayout();
 
