@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StudyingFileExplorer
+namespace SQLFileExplorer
 {
     public partial class MainPage : Form
     {
@@ -37,7 +37,7 @@ namespace StudyingFileExplorer
         private void navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             Console.WriteLine("navigated");
-            Console.WriteLine(((WebBrowser)sender).);
+            Console.WriteLine(((WebBrowser)sender));
         }
     }
 }

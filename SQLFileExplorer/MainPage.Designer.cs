@@ -1,4 +1,4 @@
-﻿namespace StudyingFileExplorer
+﻿namespace SQLFileExplorer
 {
     partial class MainPage
     {
