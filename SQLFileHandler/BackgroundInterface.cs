@@ -8,10 +8,10 @@ namespace SQLFileHandler
 
     static class BackgroundInterface
     {
-        
 
         public static void Run(string[] args)
         {
+            EnviromentVariables.mode = RunningMode.Background;
             //Helper.createHiddenDir(@".\\testDir");
         }
 

@@ -8,6 +8,8 @@ namespace SQLFileHandler
     static class Constants
     {
 
+        public const string datePatt = @"M/d/yyyy hh:mm:ss tt";
+
         public const string relativeDataDirectory = ".\\data\\";
         public const string relativeFileDataDirectory = ".\\data\\files\\";
         public const string relativeViewDirectory = ".\\view\\";

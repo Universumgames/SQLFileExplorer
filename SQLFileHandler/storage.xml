@@ -1,26 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<SQLFileSystem lastRun="1970-01-01">
+<SQLFileSystem>
   <stats>
-    <rootDir>C:\</rootDir>
-    <fileCount>inf</fileCount>
     <directories>
+      <root>C:\</root>
       <data>C:\data</data>
       <view>C:\view</view>
-      <fileData>C:\data\filedata</fileData>
+      <filedata>C:\data\filedata</filedata>
       <import>C:\import</import>
     </directories>
+    <lastupdate>01-11-2020 13:16</lastupdate>
+    <filecount>inf</filecount>
+    <customdataelements>
+      <element>Semester</element>
+      <element>Fach</element>
+    </customdataelements>
   </stats>
   <files>
     <file>
       <data>C:\data\filedata\38lkshjdfgl2gkasdfg764hoi.txt</data>
       <view>C:\view\Universum\2020\May\test.txt</view>
       <filename>test.txt</filename>
-      <author>Universum</author>
-      <creationDate>20-05-2020</creationDate>
-      <lastCapturedEdition>30-05-2020 13:56</lastCapturedEdition>
-      <customcount>2</customcount>
-      <custom1 name="Semester">1</custom1>
-      <custom2 name="Fach">GDI</custom2>
+      <created>20-05-2020</created>
+      <lastcapturededition>30-05-2020 13:56</lastcapturededition>
+      <Semester>1</Semester>
+      <Fach>GDI</Fach>
     </file>
   </files>
 </SQLFileSystem>
